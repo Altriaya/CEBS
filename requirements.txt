@@ -1,0 +1,8 @@
+# Install a platform-appropriate PyTorch 2.3.0 wheel first (CPU or CUDA 12.1).
+torch==2.3.0
+numpy==1.24.3
+scipy==1.14.1
+PyWavelets==1.8.0
+PyYAML==6.0.2
+sympy==1.13.1
+threadpoolctl==3.6.0

@@ -1,0 +1,19 @@
+{
+  "candidate_support_lengths": [
+    2,
+    4,
+    6
+  ],
+  "output_top_fraction": 0.05,
+  "joint_threshold": 1.5,
+  "joint_clip": 6.0,
+  "phase_preserving_permutations": 40,
+  "permutation_seed": 260912,
+  "minimum_permutation_z": 3.0,
+  "offset_cluster_tolerance": 1,
+  "minimum_cluster_nodes": 3,
+  "maximum_nodes": 8,
+  "reference_ridge_lambda": 10.0,
+  "score_batch": 256,
+  "score_chunk_windows": 512
+}

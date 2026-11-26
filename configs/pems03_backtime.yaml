@@ -1,0 +1,18 @@
+# Paths are relative to the repository root, or absolute.
+dataset: PEMS03
+victim: FEDformer
+observed: data/PEMS03/observed_training.npz
+trusted: data/PEMS03/trusted.npz
+validation: data/PEMS03/clean_validation.npz
+proxy: data/PEMS03/infected_fedformer.pth
+# channel_proxy: data/PEMS03/channel_fedformer.pth
+# initial_state: data/PEMS03/fedformer_initial.pth
+# evaluation: data/PEMS03/evaluation.npz
+output: outputs/pems03_backtime
+history: 12
+horizon: 12
+period: 288
+detection_batch: 64
+epochs: 100
+batch_size: 64
+learning_rate: 0.0001
