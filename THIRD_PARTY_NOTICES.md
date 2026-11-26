@@ -4,9 +4,11 @@ Forecasting code derives from the implementations used in the CEBS study, with
 upstream origins including [Time-Series-Library](https://github.com/thuml/Time-Series-Library),
 [FEDformer](https://github.com/MAZiqing/FEDformer) and
 [TimesNet](https://github.com/thuml/Time-Series-Library/blob/main/models/TimesNet.py).
-Original source notices are preserved where present. Time-Series-Library's
-[MIT notice](https://github.com/thuml/Time-Series-Library/blob/main/LICENSE) is
-included under `licenses/`; it does not apply automatically to every other file.
+Original source notices are preserved where present. The MIT notices below
+apply to their respective upstream code.
+
+- Time-Series-Library. [Included MIT notice](licenses/Time-Series-Library-MIT.txt) | [Upstream license](https://github.com/thuml/Time-Series-Library/blob/main/LICENSE)
+- FEDformer. [Included MIT notice](licenses/FEDformer-MIT.txt) | [Upstream license](https://github.com/MAZiqing/FEDformer/blob/master/LICENSE)
 
 This core repository does not redistribute the TimeGuard defense or BackTime
 attack implementation. Those projects are acknowledged as related work and data/

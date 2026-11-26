@@ -61,6 +61,6 @@ def detect(observed_path: Path, trusted_path: Path, checkpoint: Path, output: Pa
             raise FileNotFoundError(path)
     import torch
     if not torch.cuda.is_available():
-        raise RuntimeError('Fresh detection uses CUDA; --preflight-only and CPU tests need no GPU')
+        raise RuntimeError('Fresh detection requires CUDA. Use --stage check to validate inputs on CPU.')
     from cebs._detector.runner import run_detector
     return run_detector(observed_path.parent, output, dataset.lower() + '_custom', dataset, trusted, observed, checkpoint, period or PERIODS[dataset], batch, channel_checkpoint)
